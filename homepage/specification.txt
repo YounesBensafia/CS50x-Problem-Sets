@@ -1,0 +1,29 @@
+<link>
+<meta>
+<script>
+<nav>
+<p>
+<img>
+<br>
+<h3>
+<div>
+<button>
+<ul>
+<a>
+<li>
+<h4>
+
+CSS
+
+.First
+.First p
+.ImageMainPage
+.dropdown-menu
+.dropdown-item
+.dropdown-toggle
+
+
+
+JavaScript is used to have the interactivity with the user such as alert.
+
+Bootstrap is used to have the responsivity of the Website and styling the Website

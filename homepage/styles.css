@@ -1,0 +1,48 @@
+.First
+{
+    text-align: center;
+    background-color: #0042AD;
+    width:100%;
+
+}
+
+.First p
+{
+    font-size: 30px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.ImageMainPage
+{
+    width: 200px;
+    height:200px;
+    border-radius: 20px;
+    border: 5px;
+    border-style: solid;
+    border-color: #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dropdown-menu
+{
+    background-color: #fff;
+    border: 2px solid;
+}
+.dropdown-item:hover
+{
+    border: 2px solid;
+    background-color: blue;
+    color: white;
+}
+.dropdown-toggle:hover
+{
+    background-color: black;
+    color: white;
+}
+.dropdown-toggle
+{
+    background-color: blue;
+    color: white;
+}

@@ -1,0 +1,1 @@
+calculate the avg(energy), after choosing the songs where energy is > avg(energy), where max(danceability), and where max(valence)

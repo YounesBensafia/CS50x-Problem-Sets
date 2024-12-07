@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: seeing the real time of the file 'sorted10000.txt' is the fastest than sort3, real time is 0m0,057s, and we already know that the Omega of Bubble Sort is Ω(n).
+
+sort2 uses: Merge Sort
+
+How do you know?: seeing the real time of the file 'reversed10000.txt' is the fastest than other sort, real time is 0m0,064s, and we already know that the Big O of Merge Sort is O(n log(n)).
+
+sort3 uses: Selection Sort
+
+How do you know?: seeing the real time of the file 'sorted10000.txt' is the slowset than sort1, real time is 0m0,150s, and we already know that the Omega of Selection Sort is Ω(n²).

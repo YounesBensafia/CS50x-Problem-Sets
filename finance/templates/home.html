@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Symbol</th>
+                <th scope="col">Shares</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in transdb %}
+                <tr>
+                    <td scope="row">{{ data["symbol"] }}</td>
+                    <td scope="row">{{ data["shares"] }}</td>
+                    <td scope="row">{{ data["price"] }}</td>
+                    <td scope="row">{{ data["total"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <th>Cash</th>
+                <td>{{cash}}</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <th>TOTAL</th>
+                <td>{{som}}</td>
+            </tr>
+
+        </tfoot>
+    </table>
+{% endblock %}
